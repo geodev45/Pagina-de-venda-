@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Hospedagem e Domínio Profissional com Desconto - Hostinger</title>
+    <meta name="description" content="Conheça os serviços profissionais e seguros da Hostinger. VPS, hospedagem, domínios e e-mail com suporte 24h, proteção DDoS, SSL gratuito e confiança garantida.">
+    <meta name="keywords" content="hospedagem, domínio, vps, e-mail profissional, wordpress, hostinger, site barato, criador de sites, seguro, confiável, profissional, suporte 24h, garantia de reembolso, proteção ddos, ssl grátis, confiança, estabilidade, data center no brasil">
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Hostinger</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4e54c8;
+            --primary-dark: #373c96;
+            --secondary-color: #8f94fb;
+            --accent-color: #3b3f99;
+            --light-bg: #f7f9fc;
+            --text-color: #2d3748;
+            --text-light: #4a5568;
+            --highlight-bg: #e8edff;
+            --success-color: #48bb78;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background-color: #f8fafc;
+            color: var(--text-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(255,255,255,0.05)" d="M0,0 L100,0 L100,100 L0,100 Z" /></svg>');
+            background-size: cover;
+            opacity: 0.3;
+        }
+
+        header h1 {
+            font-size: 2.75rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            position: relative;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .service {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 1px solid rgba(0,0,0,0.03);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .service h2 {
+            color: var(--primary-color);
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .service h2 i {
+            margin-right: 10px;
+            font-size: 1.5rem;
+            min-width: 30px;
+        }
+
+        .service p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        .highlight {
+            background-color: var(--highlight-bg);
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 6px;
+            font-weight: 600;
+            color: var(--accent-color);
+            font-size: 0.95rem;
+        }
+
+        .service-features {
+            margin: 1.5rem 0;
+            text-align: center;
+            font-size: 0.95rem;
+            color: var(--accent-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .service-features span {
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .service-features i {
+            margin-right: 5px;
+            font-size: 1rem;
+        }
+
+        .buy-btn-container {
+            margin-top: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .buy-btn {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-decoration: none;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(78, 84, 200, 0.3);
+            transition: all 0.3s ease;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            width: fit-content;
+        }
+
+        .buy-btn:hover {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+            box-shadow: 0 6px 20px rgba(78, 84, 200, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .cta-section {
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .cta-btn {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-decoration: none;
+            padding: 1.25rem 3rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 8px 25px rgba(78, 84, 200, 0.4);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .cta-btn:hover {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+            box-shadow: 0 12px 30px rgba(78, 84, 200, 0.5);
+            transform: translateY(-3px);
+        }
+
+        .guarantee-banner {
+            background-color: #f9f9f9;
+            padding: 1.75rem;
+            text-align: center;
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin: 2rem 0;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .guarantee-banner span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .guarantee-banner i {
+            color: var(--success-color);
+            font-size: 1.1rem;
+        }
+
+        .transparency-section {
+            background-color: #eef2ff;
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            border-radius: 16px;
+            border-top: 4px solid var(--accent-color);
+            text-align: center;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .transparency-section h2 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .transparency-section p {
+            max-width: 800px;
+            margin: 1rem auto;
+            font-size: 1.1rem;
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 2rem 1rem;
+            text-align: center;
+            font-size: 1rem;
+            color: white;
+            position: relative;
+        }
+
+        footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #ff8a00, #e52e71, #4e54c8);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 3rem 1rem;
+            }
+           
+            header h1 {
+                font-size: 2rem;
+            }
+           
+            header p {
+                font-size: 1.1rem;
+            }
+           
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+           
+            .service {
+                padding: 2rem;
+            }
+           
+            .service h2 {
+                font-size: 1.5rem;
+                flex-wrap: wrap;
+            }
+
+            .service h2 i {
+                font-size: 1.3rem;
+                margin-right: 8px;
+            }
+           
+            .cta-btn {
+                padding: 1rem 2rem;
+                font-size: 1.1rem;
+            }
+           
+            .transparency-section {
+                padding: 2rem 1rem;
+            }
+           
+            .transparency-section h2 {
+                font-size: 1.5rem;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+
+            .guarantee-banner {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+                padding: 1.5rem;
+            }
+
+            .guarantee-banner span {
+                white-space: normal;
+                flex: 1 1 150px;
+                justify-content: center;
+                text-align: center;
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+           
+            .service {
+                padding: 1.5rem;
+            }
+           
+            .guarantee-banner {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1.5rem 1rem;
+            }
+
+            .guarantee-banner span {
+                flex: none;
+                width: 100%;
+                justify-content: center;
+                white-space: nowrap;
+            }
+           
+            .cta-btn {
+                width: 100%;
+                padding: 1rem;
+            }
+
+            .service-features {
+                flex-direction: column;
+                gap: 0.8rem;
+                align-items: flex-start;
+                text-align: left;
+            }
+
+            .service-features span {
+                white-space: normal;
+                text-align: left;
+                justify-content: flex-start;
+                width: 100%;
+            }
+
+            .highlight {
+                white-space: normal;
+                display: inline-flex;
+                align-items: center;
+                padding: 0.4rem 0.8rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .service {
+            animation: fadeIn 0.6s ease forwards;
+            opacity: 0;
+        }
+
+        .service:nth-child(1) { animation-delay: 0.1s; }
+        .service:nth-child(2) { animation-delay: 0.2s; }
+        .service:nth-child(3) { animation-delay: 0.3s; }
+        .service:nth-child(4) { animation-delay: 0.4s; }
+        .service:nth-child(5) { animation-delay: 0.5s; }
+        .service:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Impulsione seu projeto com a Hostinger</h1>
+    <p>Hospedagem confiável com SSL gratuito e infraestrutura moderna</p>
+</header>
+
+<div class="container">
+    <div class="services-grid">
+        <div class="service">
+            <h2><i class="fas fa-rocket"></i>Hospedagem Compartilhada</h2>
+            <p><span class="highlight">A partir de R$ 8,99/mês</span></p>
+            <p>Perfeita para blogs e sites iniciais. Inclui <strong>SSL gratuito</strong>, backups automáticos, e suporte para até 50 sites com ótimo desempenho.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <h2><i class="fab fa-wordpress"></i>WordPress Gerenciado</h2>
+            <p>Instale com 1 clique e aproveite <strong>SEO com IA</strong>, otimizações automáticas e suporte profissional para criar seu blog ou loja online.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <h2><i class="fas fa-cloud"></i>Hospedagem Cloud</h2>
+            <p>Servidores com <span class="highlight">CPU dedicada e 99,9% uptime</span>. Recursos avançados, backups diários e <strong>IP dedicado</strong>.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <h2><i class="fas fa-server"></i>VPS Poderoso</h2>
+            <p>Infraestrutura de alto nível com <strong>root access</strong>, planos escaláveis até <span class="highlight">32 GB de RAM</span>, rede de 1 Gbps e proteção DDoS.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <h2><i class="fas fa-globe"></i>Domínio & E-mail Profissional</h2>
+            <p>Tenha um domínio personalizado com e-mail profissional, <strong>entregabilidade otimizada</strong> e painel intuitivo.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <h2><i class="fas fa-robot"></i>Ferramentas com Inteligência Artificial</h2>
+            <p>Construa sites, logos e conteúdos com a plataforma <strong>Hostinger Horizons</strong>, que integra <span class="highlight">IA e marketing</span>.</p>
+           
+            <div class="service-features">
+                <span><i class="fas fa-lock"></i>Compra 100% Segura</span>
+                <span><i class="fas fa-shield-alt"></i>Garantia de Reembolso</span>
+                <span><i class="fas fa-certificate"></i>SSL Gratuito</span>
+            </div>
+            <div class="buy-btn-container">
+                <a class="buy-btn" href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" target="_blank">COMPRAR AGORA</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="guarantee-banner">
+        <span><i class="fas fa-headset"></i> Suporte 24/7</span>
+        <span><i class="fas fa-calendar-check"></i> Garantia de reembolso de 30 dias</span>
+        <span><i class="fas fa-map-marker-alt"></i> Data center no Brasil</span>
+    </div>
+
+    <div class="cta-section">
+        <a href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" class="cta-btn" target="_blank">Contratar com desconto</a>
+    </div>
+</div>
+
+<div class="transparency-section">
+    <h2><i class="fas fa-search"></i> Transparência e Benefício para Você</h2>
+    <p>
+        Esta página utiliza links de afiliado. Isso significa que, ao contratar um serviço por meio dos nossos botões, <strong>eu recebo uma comissão</strong> — <em>sem custo adicional para você</em>.
+    </p>
+    <p>
+        ✅ E o melhor: você <strong>ganha um desconto exclusivo</strong>, como se fosse um <strong>cupom de indicação</strong>!<br>
+        Ao acessar o site da Hostinger por este link, você ativa automaticamente essa condição especial.
+    </p>
+    <div style="margin-top: 2rem;">
+        <a href="https://hostinger.com.br?REFERRALCODE=CD8GEODEVUZ6" class="cta-btn" target="_blank">Contratar com Desconto</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p>Desenvolvido por GEO DEV | Todos os direitos reservados. 2025</p>
+    </div>
+</footer>
+
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('copy', event => {
+    event.preventDefault();
+    alert("Copiar foi desabilitado nesta página.");
+});
+
+// Efeito de carregamento suave
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        document.body.style.opacity = '1';
+    }, 50);
+});
+
+// Suavizar transições ao rolar
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+</body>
+</html>
+
